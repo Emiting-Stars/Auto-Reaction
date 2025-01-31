@@ -19,11 +19,11 @@ class Bot(Client):
         await super().start()
         me = await self.get_me()
         self.name = me.first_name
-        print(f'{me.first_name} is Started...🍃')
+        print(f'{me.first_name} Is sᴛᴀʀᴛᴇᴅ...🥶')
 
     async def stop(self, *args):
         await super().stop()      
-        print("Bot restarting.....")
+        print("Bᴏᴛ ʀᴇsᴛᴀʀᴛɪɴɢ...✨")
        
                            
   
