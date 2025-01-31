@@ -13,9 +13,12 @@ async def get_fsub(bot, message):
         join_button = InlineKeyboardButton("Join Channel", url=channel_link)
         keyboard = [[join_button]]
         await message.reply(
-            f"<b>Dᴇᴀʀ Usᴇʀ {message.from_user.mention}!\n\nPʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ ! 😊\n\nDᴜᴇ ᴛᴏ sᴇʀᴠᴇʀ ᴏᴠᴇʀʟᴏᴀᴅ, ᴏɴʟʏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜɪs ʙᴏᴛ !</b>",
+            f"<b>Dᴇᴀʀ Usᴇʀ {message.from_user.mention}!\n\n<blockquote>Pʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ ! 😊</blockquote>\n\n<blockquote expandable>Tʜᴇ sᴛʀᴏɴɢ sʜᴏᴜʟᴅ ᴀɪᴅ ᴀɴᴅ ᴘʀᴏᴛᴇᴄᴛ ᴛʜᴇ ᴡᴇᴀᴋ. ᴛʜᴇɴ, ᴛʜᴇ ᴡᴇᴀᴋ ᴡɪʟʟ ʙᴇᴄᴏᴍᴇ sᴛʀᴏɴɢ, ᴀɴᴅ ᴛʜᴇʏ ɪɴ ᴛᴜʀɴ ᴡɪʟʟ ᴀɪᴅ ᴀɴᴅ ᴘʀᴏᴛᴇᴄᴛ ᴛʜᴏsᴇ ᴡᴇᴀᴋᴇʀ ᴛʜᴀɴ ᴛʜᴇᴍ. ᴛʜᴀᴛ ɪs ᴛʜᴇ ʟᴀᴡ ᴏғ ɴᴀᴛᴜʀᴇ.</blockquote>\n<blockquote>Pᴏᴡᴇʀᴇᴅ ʙʏ @EmitingStars_Botz</blockquote></b>",
             reply_markup=InlineKeyboardMarkup(keyboard),
         )
         return False
     else:
         return True
+
+#Emiting Stars 
+#@RexySama
