@@ -27,8 +27,8 @@ async def start_command(_, msg: Message):
                     InlineKeyboardButton('Kɪᴅɴᴀᴘ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ʙᴀʙʏ', url=f'https://telegram.me/{tg.BOT_USERNAME}?startgroup=botstart')
                 ],
                 [
-                    InlineKeyboardButton('• Uᴩᴅᴀᴛᴇꜱ •', url='https://t.me/EmitingStars_Botz'),
-                    InlineKeyboardButton('• Sᴜᴩᴩᴏʀᴛ •', url='https://t.me/+HZuPVe0l-F1mM2Jl')
+                    InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/EmitingStars_Botz'),
+                    InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+HZuPVe0l-F1mM2Jl')
                 ],
                 [
                     InlineKeyboardButton('Kɪᴅɴᴀᴘ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ʙᴀʙʏ', url=f'https://telegram.me/{tg.BOT_USERNAME}?startchannel=botstart')
@@ -59,10 +59,10 @@ async def send_emojis(_, msg: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('• Uᴩᴅᴀᴛᴇꜱ •', url='https://t.me/EmitingStars_Botz'),
-                    InlineKeyboardButton('• Sᴜᴩᴩᴏʀᴛ •', url='https://t.me/+HZuPVe0l-F1mM2Jl')
+                    InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/EmitingStars_Botz'),
+                    InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+HZuPVe0l-F1mM2Jl')
                 ],[
-                    InlineKeyboardButton('• Cʟᴏꜱᴇ •', callback_data="close")
+                    InlineKeyboardButton('Cʟᴏꜱᴇ', callback_data="close")
                 ]
             ]
         ),
