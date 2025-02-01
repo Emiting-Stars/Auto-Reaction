@@ -18,9 +18,20 @@ async def start_command(_, msg: Message):
         is_participant = await get_fsub(client, message)
         if not is_participant:
             return
-    return await msg.reply_photo(
-        photo=tg.SB_PIC,
-        caption=START_TXT.format(message.from_user.mention),
+    return await message.reply_photo(
+            photo = random.choice(PICS),
+            caption = START_MSG.format(
+                first = message.from_user.first_name,
+                last = message.from_user.last_name,
+                username = None if not message.from_user.username else '@' + message.from_user.username,
+                mention = message.from_user.mention,
+                id = message.from_user.id
+            ),
+            reply_markup = reply_markup,
+         message_effect_id=5104841245755180586 #🔥
+        )
+        try: await message.delete()
+        except: pass,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
