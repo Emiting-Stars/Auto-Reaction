@@ -20,7 +20,7 @@ async def start_command(_, msg: Message):
             return
     return await message.reply_photo(
             photo = random.choice(PICS),
-            caption = START_MSG.format(
+            caption = START_TXT.format(
                 first = message.from_user.first_name,
                 last = message.from_user.last_name,
                 username = None if not message.from_user.username else '@' + message.from_user.username,
